@@ -1,6 +1,6 @@
 #! /bin/bash
 
-read -p "How many files are in this directory?" inputNum
+read -p "How many files are in this directory?" inputNum 
 
 function num_files {
     local count=$(ls -l |wc -l)-1
